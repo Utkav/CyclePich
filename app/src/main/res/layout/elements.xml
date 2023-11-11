@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:text="Cool Market"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:background="@drawable/hehe">
+    </TextView>
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Click">-->
+<!--    </Button>-->
+<!--    <EditText-->
+<!--        android:id="@+id/ET"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:hint="Введите свой знак зодиака">-->
+<!--    </EditText>-->
+    <CheckBox
+        android:id="@+id/CB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="мясо свинотки">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/CB2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="лемонадек">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/CB3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="чипсеки">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/CB4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="грибочки">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/CB5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="хумус">
+    </CheckBox>
+
+
+
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/RB1"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:text="самовывоз">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/RB2"
+            android:layout_width="177dp"
+            android:layout_height="50dp"
+            android:text="доставка">
+
+        </RadioButton>
+    </RadioGroup>
+
+</LinearLayout>
